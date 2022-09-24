@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav{
+    background-color: black;
+
+}
+
+#a1{
+    font-size: 1.5rem;
+    margin-left: 100px;
+    text-decoration: none;
+    color: #F2594B;
+    font-weight: 200;
+    background-image: linear-gradient(currentColor, currentColor);     
+    background-position: 0% 100%;     
+    background-repeat: no-repeat;     
+    background-size: 0% 2px;     
+    transition: background-size .4s;
+}
+
+#a1:hover{
+    color: #3c74a8;     
+    background-size: 100% 2px;
+}
+/* INDEX */
+#imagen_disciplinas_principal{
+    height: 700px;
+}
+
+.imagen_principal{
+    width: 100%;
+}
+
+.noticias_index{
+text-align: center;
+}
+
+.h1_index{
+    text-align: center;
+    margin: 50;
+}
+
+.imagenes_index{
+    margin: 10px 70px;
+    width: 100%;
+    border: solid 1px #3c74a8;
+    position: relative;
+}
+
+.imagen_index{
+    height: 600px;
+}
+
+.imagen_index1{
+    height: 200px;
+    width: 100px;
+}
+
+.imagen_car_galeria {
+    display:flex;
+    align-items: baseline;
+    justify-content: left;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../imagenes/imagencargaleria.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color: white;
+    padding: 50px;
+}
+
+.ubicacion{
+    margin-bottom: 20px;
+}
+ /* NOSOTROS */
+.imagen_nosotros{
+    width: 100%;
+    height: 500px;
+}
+
+.h1_nosotros{
+    text-align: center;
+    margin: 30px;
+}
+
+.imagen_nosotros2{
+    width: 100%;
+    height: 400px;
+}
+
+.texto_nosotros2{
+    text-align: right;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.imagen_car_nosotros{
+    display:flex;
+    align-items: baseline;
+    justify-content: left;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../imagenes/imagen2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color: white;
+    padding: 50px;
+}
+
+body{
+    background-color: #3c74a8;
+}
+
+h1,h2{
+    color: white;
+    padding: 15px;
+}
+/* DISCIPLINAS */
+.h1_disciplinas{
+    text-align: center;
+    margin: 50px;
+}
+
+.imagen_car_disciplina{
+    width: 100%;
+    height: 700px;
+}
+
+.div_imagen_disciplina2{
+    width: 30%;
+    height: 110x;
+	overflow: hidden;
+    margin: 40px;
+    padding: 10px;
+	border: solid #3c74a8 2px;
+    display: inline-block;
+}
+
+.imagen_disciplina2{
+    width: 450px;
+    height: 450px;
+}
+
+.disciplinas{
+    margin: 0;
+}
+
+.imagen_disciplina_pr{
+    width: 100%;
+    height: auto;
+}
+
+.disciplinas_presentacion{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.texto_disciplina_pr{
+    text-align: center;
+    justify-content: right;
+    font-size: 30px;
+    margin: 50px;
+}
+/* GALERIA */
+.imagenes_galeria{
+    margin: 40px;
+    width: auto;
+    height: auto;
+}
+
+.h1_galeria{
+    text-align: center;
+}
+
+.p_galeria1{
+    font-size: 20px;
+}
+
+.imagen_galeria1{
+    height: 350px;
+    width: 350px;
+}
+
+.imagen_galeria2{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.imgHover{
+    transition: all 2s;
+    z-index: -1;
+}
+
+.imgHover:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+    z-index: 10;
+    overflow: hidden;
+    cursor: zoom-in;
+    align-self: center;
+}
+
+.imgHover:click{
+    filter: brightness(100%);
+    transform: scale(1.1);
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: center;
+
+}
+
+.imgHover:focus{
+    filter: brightness(100%);
+    transform: scale(1.1);
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #F2811D;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.logos img{
+    width: 40px;
+    height: auto;
+}
+
+main{
+    margin: 5px;
+}
+
+input{
+    margin: 10px;
+}
+
+textarea{
+    margin: 10px;
+}
+
+.wrap-texto{
+    color:white;
+    width: 50%;
+}
+
+.derechos{
+    text-align: left;
+}
+
+#nav_footer{
+    list-style: none;
+    background-color: #F2811D;
+    text-align: right;
+}
+
+.imag{
+    height: 500px;
+}
