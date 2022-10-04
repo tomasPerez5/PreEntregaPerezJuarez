@@ -10,11 +10,12 @@
 
 nav{
     background-color: black;
+    width: 100%;
 
 }
 
 #a1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 100px;
     text-decoration: none;
     color: #F2594B;
@@ -30,11 +31,11 @@ nav{
     color: #3c74a8;     
     background-size: 100% 2px;
 }
-/* INDEX */
-#imagen_disciplinas_principal{
-    height: 700px;
-}
 
+main{
+    margin: 5px;
+}
+/* INDEX */
 .imagen_principal{
     width: 100%;
 }
@@ -56,24 +57,12 @@ text-align: center;
 }
 
 .imagen_index{
-    height: 600px;
+    height: 30rem;
 }
 
 .imagen_index1{
     height: 200px;
     width: 100px;
-}
-
-.imagen_car_galeria {
-    display:flex;
-    align-items: baseline;
-    justify-content: left;
-    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../imagenes/imagencargaleria.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    color: white;
-    padding: 50px;
 }
 
 .ubicacion{
@@ -101,20 +90,9 @@ text-align: center;
     margin: 50px;
 }
 
-.imagen_car_nosotros{
-    display:flex;
-    align-items: baseline;
-    justify-content: left;
-    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../imagenes/imagen2.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    color: white;
-    padding: 50px;
-}
-
 body{
     background-color: #3c74a8;
+    overflow-x: hidden;
 }
 
 h1,h2{
@@ -143,7 +121,7 @@ h1,h2{
 }
 
 .imagen_disciplina2{
-    width: 450px;
+    width: 100%;
     height: 450px;
 }
 
@@ -168,23 +146,18 @@ h1,h2{
     margin: 50px;
 }
 /* GALERIA */
+/*
 .imagenes_galeria{
-    margin: 40px;
     width: auto;
     height: auto;
+    margin: 5px;
+    justify-items: center;
 }
-
-.h1_galeria{
-    text-align: center;
-}
-
-.p_galeria1{
-    font-size: 20px;
-}
+*/
 
 .imagen_galeria1{
     height: 350px;
-    width: 350px;
+    width: 100%;
 }
 
 .imagen_galeria2{
@@ -231,6 +204,7 @@ footer{
     color: white;
     margin: 0px;
     padding: 20px;
+    width: 100%;
 }
 
 .logos img{
@@ -238,9 +212,6 @@ footer{
     height: auto;
 }
 
-main{
-    margin: 5px;
-}
 
 input{
     margin: 10px;
