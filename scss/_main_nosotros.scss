@@ -1,5 +1,5 @@
 .nosotros_presentacion{
-    display: flex;
+    display: map-get($flex ,flexible );
     margin-bottom: $m-50;
     .imagen_nosotros2{
         width: $w-100;

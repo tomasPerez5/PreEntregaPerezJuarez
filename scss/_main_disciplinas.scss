@@ -12,7 +12,7 @@
 }
 
 .disciplinas_presentacion{
-    display: flex;
+    display: map-get($flex ,flexible );
     margin-bottom: $m-50;
     .imagen_disciplina_pr{
         width: $w-100;
