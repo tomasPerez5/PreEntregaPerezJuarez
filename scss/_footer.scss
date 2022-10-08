@@ -1,0 +1,32 @@
+footer{
+    background-color: $color-primario;
+    text-align: $centrado;
+    color: $color-blanco;
+    margin: 0px;
+    padding: 20px;
+    width: $w-100;
+    .logos
+    img{
+        width: 40px;
+        height: auto;
+    }
+    input{
+        margin: 10px;
+    }
+    textarea{
+        margin: 10px;
+    }
+    .wrap-texto{
+        color: $color-blanco;
+        width: 50%;
+    }
+    .derechos{
+        text-align: $izquierda;
+    }
+    #nav_footer{
+        list-style: none;
+        background-color: $color-primario;
+        text-align: $derecha;
+    }
+
+}

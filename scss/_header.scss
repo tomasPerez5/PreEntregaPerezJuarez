@@ -1,0 +1,24 @@
+.logo{
+    height: 100px;
+}
+
+nav{
+    background-color: black;
+    width: $w-100;
+#a1{
+    font-size: 1rem;
+    margin-left: 100px;
+    text-decoration: none;
+    color: #F2594B;
+    font-weight: 200;
+    background-image: linear-gradient(currentColor, currentColor);     
+    background-position: 0% $w-100;     
+    background-repeat: no-repeat;     
+    background-size: 0% 2px;     
+    transition: background-size .4s;
+&:hover{
+    color: #3c74a8;     
+    background-size: $w-100 2px;
+}
+}
+}

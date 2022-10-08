@@ -1,0 +1,42 @@
+#imagen_galeria{
+    width: auto;
+    height: auto;
+    margin: $m-5;
+    justify-items: $centrado;
+.imagen_galeria1{
+    height: 350px;
+    width: $w-100;
+    }
+.imagen_galeria2{
+    height: 500px;
+    width: $w-100;
+     margin-top: 40px;
+}
+.imgHover{
+    transition: all 2s;
+    z-index: -1;
+    
+&:hover {
+    filter: brightness($w-100);
+    transform: scale(1.1);
+    z-index: 10;
+    overflow: hidden;
+    cursor: zoom-in;
+    align-self: $centrado;
+}
+&:click {
+    filter: brightness($w-100);
+    transform: scale(1.1);
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: $centrado;
+}
+&:focus{
+    filter: brightness($w-100);
+    transform: scale(1.1);
+    z-index: 10;
+    cursor: zoom-in;
+    align-self: $centrado;
+}
+}
+}

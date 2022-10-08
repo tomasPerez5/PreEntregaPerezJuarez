@@ -1,0 +1,19 @@
+.imagen_principal{
+    width: $w-100;
+}
+
+.noticias_index{
+text-align: $centrado;
+.imagen_index{
+    height: 30rem;
+}
+.h1_index{
+    @include margen-alineado ($m-50,$centrado);
+}
+}
+
+
+.imagen_index1{
+    height: 200px;
+    width: $w-100;
+}

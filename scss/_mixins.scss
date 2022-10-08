@@ -1,0 +1,5 @@
+@mixin margen-alineado ($m-50,$centrado){
+    margin: $m-50;
+    text-align: $centrado;
+}
+    

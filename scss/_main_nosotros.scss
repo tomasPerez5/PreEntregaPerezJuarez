@@ -1,0 +1,17 @@
+.nosotros_presentacion{
+    display: flex;
+    margin-bottom: $m-50;
+    .imagen_nosotros2{
+        width: $w-100;
+        height: 400px;
+    }
+ }
+
+.imagen_nosotros{
+    width: $w-100;
+    height: 500px;
+}
+
+.h1_nosotros{
+    @include margen-alineado ($m-50,$centrado);
+}

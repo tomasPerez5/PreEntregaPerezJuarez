@@ -1,0 +1,34 @@
+
+.h1_contacto{
+    @include margen-alineado ($m-50,$centrado);
+}
+
+.formulario{
+    align-items: $centrado;
+    flex-direction: $centrado;
+    justify-content: $centrado;
+    align-items: $centrado;
+    margin: 0 auto;
+    max-width: 200px;
+    width: $w-100;
+    margin-top: 30px;
+    input{
+        margin: $m-5;
+    }
+    .boton {
+        padding: 0.5rem $fuente-normal;
+        border: none;
+        background-color: $color-primario;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: $color-negro;
+    
+    &:hover{
+        background: $color-blanco;
+    }
+}
+}
+
+.ubicacion{
+    margin-bottom: 20px;
+}

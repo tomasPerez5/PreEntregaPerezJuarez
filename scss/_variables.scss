@@ -1,0 +1,29 @@
+
+$color-primario: #F2811D;
+$color-secundario: #3c74a8;
+$color-negro: black;
+$color-blanco: white;
+
+
+$centrado: center;
+$izquierda: left;
+$derecha: right;
+
+
+$m-50: 50px;
+$m-5: 5px;
+$m-10: 10px;
+$m-20: 20px;
+$m-30: 30px;
+$w-100: 100%;
+$h-100: 100%;
+
+$fuente-normal: 1rem;
+
+$margenes:(
+    m-10: $m-10,
+    m-5: $m-5,
+    m-20: $m-20,
+    m-30: $m-30,
+    m-50: $m-50,
+);
