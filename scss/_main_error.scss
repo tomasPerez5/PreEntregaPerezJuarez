@@ -1,0 +1,21 @@
+.texto-error{
+    text-align: $centrado;
+    margin-top: 15rem;
+    margin-bottom: 14rem;
+    overflow-y: hidden;
+
+.boton{
+    padding: 0.5rem $fuente-normal;
+        border: none;
+        background-color: $color-primario;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: $color-negro;
+        text-decoration: none;
+    
+    &:hover{
+        background: $color-blanco;
+    }
+}
+}
+

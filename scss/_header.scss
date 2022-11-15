@@ -17,7 +17,7 @@ nav{
     background-size: 0% 2px;     
     transition: background-size .4s;
 &:hover{
-    color: #3c74a8;     
+    color: $color-secundario;     
     background-size: $w-100 2px;
 }
 }
